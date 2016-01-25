@@ -4,18 +4,20 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Projects</h1>
+	<div class="site-category" id="photography">
+		<h1><a href="http://skcele.tumblr.com/">Photography</a></h1>
+	</div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+	<div class="site-category" id="design">
+		<h1><a href="http://skcdesign.tumblr.com/">Design</a></h1>
+	</div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+	<div class="site-category" id="ux-design">
+		<h1><a href="">UX Design</a></h1>
+	</div>
+
+	<div class="site-category" id="misc">
+		<h1><a href="">Misc</a></h1>
+	</div>
 
 </div>

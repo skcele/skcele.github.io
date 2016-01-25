@@ -51,3 +51,39 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+
+//My variables:
+$normal-kerning: 5px;
+
+
+//HEADER
+.site-title{
+	text-align: center;
+	float: none;
+}
+
+//INDEX PAGE
+.site-category {
+	min-height: 9em;
+	h1 {
+		margin: 5% 0;
+		text-align: center;
+		display: block;
+		text-transform: uppercase;
+		letter-spacing: $normal-kerning;
+	}
+
+	a{
+		color: white;
+		transition: letter-spacing 1s;
+		
+		&:hover{
+			letter-spacing: $normal-kerning + 2;
+		}
+	}
+}
+
+.page-content{
+	background-color: black;
+}
