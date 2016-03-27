@@ -49,7 +49,8 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "responsive"
 ;
 
 
@@ -64,9 +65,13 @@ $normal-kerning: 5px;
 }
 
 //INDEX PAGE
-.site-category, .title-section {
-	min-height: 9em;
+.site-category, #title-section {
 	color: white;
+
+	h1, h2 {
+		transition: color 1s, opacity 1s;
+	}
+
 	h1 {
 		margin: 5% 0;
 		text-align: center;
@@ -75,7 +80,7 @@ $normal-kerning: 5px;
 		letter-spacing: $normal-kerning;
 	}
 
-	a{
+	a {
 		color: white;
 		transition: letter-spacing 2s;
 		&:hover{
@@ -84,10 +89,14 @@ $normal-kerning: 5px;
 	}
 }
 
-.title-section {
+.home{
+	display: flex;
+	flex-direction: column;
+}
+
+#title-section {
 	min-height: 43em;
 	background-image: url("/photos/trail.png");
-	// background-width: 100%;
 	background-height: 43em;
 	background-size: cover;
 	background-position: center;
