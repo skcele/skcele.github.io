@@ -15,7 +15,7 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #fdfdfd;
+$background-color: #000;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
@@ -95,7 +95,7 @@ $normal-kerning: 5px;
 }
 
 #title-section {
-	min-height: 43em;
+	height: 43em;
 	background-image: url("/photos/trail.png");
 	background-height: 43em;
 	background-size: cover;
