@@ -1,5 +1,5 @@
 @media screen {
-	#title-section {
+	.title-section {
 		@media (max-width: 1000px) {
 			h1{
 				color: black;
@@ -22,5 +22,16 @@
 			}
 		}
 	}
-	
+	.site-category {
+		@media (max-width: 500px) {
+			h1{
+				font-size: 1em;
+			}
+		}
+		@media (min-width: 500px) and (max-width: 800px){
+			h1{
+				font-size: 1.5em;
+			}
+		}
+	}
 }

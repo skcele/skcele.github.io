@@ -65,7 +65,7 @@ $normal-kerning: 5px;
 }
 
 //INDEX PAGE
-.site-category, #title-section {
+.site-category, .title-section {
 	color: white;
 
 	h1, h2 {
@@ -94,7 +94,7 @@ $normal-kerning: 5px;
 	flex-direction: column;
 }
 
-#title-section {
+.title-section {
 	height: 43em;
 	background-image: url("/photos/trail.png");
 	background-height: 43em;
@@ -112,6 +112,48 @@ $normal-kerning: 5px;
 	}
 }
 
+.site-category{
+	// max-height: 25%;
+	h1{
+		padding: 2em;
+	}
+
+}
+
+.connect{
+	text-align: center;
+	padding: auto;
+	img{
+		height: 30px;
+		padding: 10px;
+	}
+}
+
+.site-footer{
+	border-top: none;
+	padding: 15px 0 0 0;
+}
+
 .page-content{
 	background-color: black;
+}
+
+/*SECTIONS*/
+
+#photography{
+	background-image: url("/photos/rain.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#design{
+	background-image: url("/photos/light.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#ux-design{
+	background-image: url("/photos/lilypads.jpg");
+	background-size: cover;
+	background-position: center;
 }
