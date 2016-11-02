@@ -11,6 +11,7 @@ $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
+$normal-kerning:   5px;
 
 $spacing-unit:     30px;
 
@@ -53,11 +54,6 @@ $on-laptop:        800px;
         "responsive"
 ;
 
-
-//My variables:
-$normal-kerning: 5px;
-
-
 //HEADER
 .site-title{
 	text-align: center;
@@ -66,6 +62,7 @@ $normal-kerning: 5px;
 
 //INDEX PAGE
 .site-category, .title-section {
+	box-sizing: border-box;
 	color: white;
 
 	h1, h2 {
@@ -78,13 +75,17 @@ $normal-kerning: 5px;
 		display: block;
 		text-transform: uppercase;
 		letter-spacing: $normal-kerning;
+
 	}
 
 	a {
 		color: white;
-		transition: letter-spacing 2s;
+		transition: letter-spacing 0.8s;
+		border-bottom: 2px solid rgba(0, 0, 0, 0);
 		&:hover{
-			letter-spacing: $normal-kerning + 2;
+			letter-spacing: $normal-kerning + 1;
+			text-decoration: none;
+			border-bottom: 2px solid white;
 		}
 	}
 }
@@ -101,23 +102,29 @@ $normal-kerning: 5px;
 	background-size: cover;
 	background-position: center;
 	h1{
-		font-size: 4em;
+		font-size: 5em;
 		padding: 15% 0 5% 0;
 		margin: 0 0;
 	}
 	h2{
-		// font-size: 2em;
+		font-size: 1.75em;
 		text-align: center;
 		display: block;
+		letter-spacing: 1px;
+		font-style: italic;
 	}
 }
 
 .site-category{
 	// max-height: 25%;
-	h1{
-		padding: 2em;
+	a{
+		display: inline-block;
 	}
-
+	h1{
+		padding: 1.75em;
+		text-shadow: black 0 0 10px;
+		letter-spacing: $normal-kerning - 1;
+	}
 }
 
 .connect{

@@ -10,7 +10,7 @@ layout: homepage
      </div>
 
 	<div class="site-category" id="photography">
-		<h1><a href="http://skcele.tumblr.com/">Photography</a></h1>
+		<h1><a href="https://society6.com/skceletongirl/prints">Photography</a></h1>
 	</div>
 
 	<div class="site-category" id="design">
@@ -18,7 +18,17 @@ layout: homepage
 	</div>
 
 	<div class="site-category" id="ux-design">
-		<h1><a href="http://infiniteio.com">Created Infinite Io's Site</a></h1>
+		<h1><a href="http://infiniteio.com">Developed <br> infiniteio.com</a></h1>
 	</div>
+
+	<script>
+	$(function() {
+		$('.site-category')
+			.css({'cursor': 'pointer'})
+			.on('click', function() {
+				location.href = $(this).find('a').attr('href');
+			});
+	});
+	</script>
 
 </div>
