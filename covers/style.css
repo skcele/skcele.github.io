@@ -20,5 +20,5 @@ body, html {
 
 .container{
   margin: 2em;
-  min-width: 30em;
+  width: 30em;
 }
