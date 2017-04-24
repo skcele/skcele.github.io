@@ -8,8 +8,14 @@ body, html {
   font-family: Verdana;
 }
 
-.title-section {
+.title-section.title-covers {
   margin: 5em;
+  color: white;
+  opacity: 1;
+}
+
+.title-section.title-covers h2{
+  color: gray;
 }
 
 .container-wrapper{

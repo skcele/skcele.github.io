@@ -1,5 +1,5 @@
 @media screen {
-	.title-section {
+	.title-home {
 		@media (max-width: 500px) {
 			max-height: 30em;
 			h1{
@@ -51,6 +51,32 @@
 		@media (min-width: 800px) {
 			h1{
 				font-size: 2.5em;
+			}
+		}
+	}
+	.title-section.title-covers {
+		@media (max-width: 465px) {
+			h1{
+				font-size: 1em;
+			}
+			h2{
+				font-size: 0.75em;
+			}
+		}
+		@media (min-width: 465px) and (max-width: 520px) {
+			h1{
+				font-size: 2em;;
+			}
+			h2{
+				font-size: 1.5em;
+			}
+		}
+		@media (min-width: 520px) and (max-width: 1100px) {
+			h1 {
+				font-size: 2.5em;
+			}
+			h2{
+				font-size: 1.5em;
 			}
 		}
 	}
