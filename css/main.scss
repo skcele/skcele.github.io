@@ -123,6 +123,8 @@ $on-laptop:        800px;
 
 .site-category{
 	// max-height: 25%;
+	background-size: cover;
+	background-position: center;
 	a{
 		display: inline-block;
 	}
@@ -153,20 +155,18 @@ $on-laptop:        800px;
 
 /*SECTIONS*/
 
-#photography{
+#covers{
 	background-image: url("/photos/rain.jpg");
-	background-size: cover;
-	background-position: center;
 }
 
 #design{
 	background-image: url("/photos/light.jpg");
-	background-size: cover;
-	background-position: center;
 }
 
 #ux-design{
 	background-image: url("/photos/lilypads.jpg");
-	background-size: cover;
-	background-position: center;
+}
+
+#photography{
+	background-image: url("/photos/gold.png");
 }
