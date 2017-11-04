@@ -1,2 +1,2 @@
-# skcele.github.io
-Hey there, this is my portfolio website. Check back later for updates.
+# Stephanie Cree's Portfolio
+You can check out my work [here](http://www.stephaniecree.com/)!
