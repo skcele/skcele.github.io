@@ -27,5 +27,6 @@ body, html {
 .container{
   margin: 2em;
   width: 30em;
+  height: 36em;
   cursor: pointer;
 }

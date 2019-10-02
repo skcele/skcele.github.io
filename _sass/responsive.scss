@@ -1,25 +1,32 @@
 @media screen {
-	.title-home {
+	#title-section {
 		@media (max-width: 500px) {
 			max-height: 30em;
 			h1{
-				color: black;
-				opacity: 0.4;
+				// color: black;
+				// opacity: 0.4;
+				font-size: 2em;
+				margin-top: 3em;
 			}
-			// h2{
-			// 	font-size: 1em;
-			// }
+			h2{
+				font-size: 1em;
+			}
 		}
 		@media (min-width: 500px) and (max-width: 1000px) {
 			h1{
-				color: black;
-				opacity: 0.2;
+				// color: black;
+				// opacity: 0.2;
+				font-size: 2.5em;
+				margin-top: 1em;
+			}
+			h2{
+				font-size: 1.5em;
 			}
 			@media (-webkit-min-device-pixel-ratio: 2) {
 				max-height: 18em;
 				body & h1{
 					color: white;
-					opacity: 0.7;
+					// opacity: 0.7;
 					padding-top: 5%;
 				}
 			}
@@ -27,13 +34,13 @@
 		@media (min-width: 1000px) and (max-width: 1200px) {
 			h1, h2{
 				color: white;
-				opacity: 0.7;
+				// opacity: 0.7;
 			}
 		}
 		@media (max-width: 1200px) {
 			h2 {
 				color: white;
-				opacity: 0.5;
+				opacity: 0.7;
 			}
 		}
 	}
