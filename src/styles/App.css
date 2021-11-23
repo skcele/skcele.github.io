@@ -1,38 +1,87 @@
+body {
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+
 .App {
-  text-align: center;
+  text-align: left;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* NAVBAR */
+
+.navbar {
+  background-color: #303030;
+  width: 100%;
+  min-height: auto;
+  display: inline-flex;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-text {
+  margin: 0.5rem 0 0.5rem 1.5rem;
+  color: white;
+  letter-spacing: 0.01em;
+  font-size: 1.25rem;
+  line-height: 2.1rem;
+  font-family: ode, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar-list{
+  margin: 0;
+  padding: 0;
+}
+
+li.navbar-text{
+  text-align: right;
+  margin: 0.5rem 0.969rem 0.5rem 0.969rem;
+  list-style: none;
+  display: inline-block;
+}
+
+li.navbar-text:last-child{
+  margin: 0.5rem 2.188rem 0.5rem 0.969rem;
+}
+
+.navbar-text a {
+  text-decoration: none;
+  color: white;
+  /* transition: text-decoration 300ms; */
+}
+
+.navbar-text a:hover{
+  text-decoration: underline;
+}
+
+.navbar-text a:visited{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+nav {
+  margin-left: auto;
 }
 
-@keyframes App-logo-spin {
+
+/* MAIN */
+
+.main-photo {
+  min-height: 60vh;
+  width: 100%;
+  background-color: blue;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
