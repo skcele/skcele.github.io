@@ -62,14 +62,46 @@ nav {
   margin-left: auto;
 }
 
-
 /* MAIN */
 
 .main-photo {
-  min-height: 60vh;
+  height: 90vh;
   width: 100%;
-  background-color: blue;
+  background-image: url("/photos/palms.png");
+	background-size: cover;
+	background-position: center;
+  display: flex;
+  flex-direction: column-reverse;
 }
+
+.main-photo_description {
+  background-color: #303030;
+  box-sizing: border-box;
+  margin: 2rem 0 2rem 8rem;
+  padding: 1.875rem 2rem 1.875rem 1.875rem;
+}
+
+.main-photo_description h3 {
+  color: white;
+  font-family: interstate-mono, monospace;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.25rem;
+  line-height: 2.375rem;
+}
+
+.main-section {
+  padding: 5%;
+}
+
+.main-section h3 {
+  font-family: interstate-mono, monospace;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.25rem;
+  line-height: 2.375rem;
+}
+
 
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
