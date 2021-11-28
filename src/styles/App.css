@@ -91,17 +91,57 @@ nav {
 }
 
 .main-section {
-  padding: 5%;
+  padding: 6rem;
 }
 
 .main-section h3 {
+  display: block;
   font-family: interstate-mono, monospace;
   font-weight: 300;
   font-style: normal;
   font-size: 1.25rem;
   line-height: 2.375rem;
+  padding-bottom: 3rem;
 }
 
+.main-section_links {
+  display: inline-block;
+  min-width: 9rem;
+  text-align: right;
+  padding: 0 2rem 3rem 1rem;
+  border-right: #303030 solid 1.5px;
+  margin: 0 2.688rem 2rem auto;
+}
+
+.main-section_links h2 {
+  font-family: interstate-mono, monospace;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.8rem;
+  line-height: 2.375rem;
+  padding-bottom: 1rem;
+}
+
+.main-section_links a {
+  text-decoration: none;
+  color: #303030;
+}
+
+.main-section_links a:hover {
+  text-decoration: underline;
+}
+
+.main-section_links a:visited {
+  color: #303030;
+}
+
+.main-section-square {
+  display: inline-block;
+  min-width: 20rem;
+  min-height: 20rem;
+  background-color: #303030;
+  /* margin: 4rem; */
+}
 
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {

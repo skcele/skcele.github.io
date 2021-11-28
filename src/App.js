@@ -29,7 +29,16 @@ function App() {
           </div>
         </div>
         <div className="main-section">
-          <h3>I am currently a Front-End Developer and Designer at IBM, where I work on prototyping fantastic user experiences, facilitating collaboration, and integrating motion across products.</h3>
+          <h3>I am currently a Front-End Developer and Designer at IBM, where I work on prototyping fantastic user experiences, facilitating collaboration, and integrating motion across products.
+          </h3>
+            <div className="main-section_links">
+              <h2 className="link-design"><a href=".">design</a></h2>
+              <h2 className="link-code"><a href=".">code</a></h2>
+              <h2 className="link-words"><a href=".">words</a></h2>
+              <h2 className="link-art"><a href=".">art</a></h2>
+              <h2 className="link-info"><a href=".">info</a></h2>
+            </div> 
+            <div className="main-section-square" />
         </div>
       </main>
     </div>
